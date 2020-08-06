@@ -25,8 +25,7 @@ Now if I run the program it print the number of file descriptor.
 
 
 ######
-il problema qua e' che non e' stato chiuso il file descriptor del file 
-e la shell che apro ha gli stessi privilegi
-il file descriptor e' indicato con il numero 3
-normalemente non sono abilitato a scrivere nel file zzz ma quando abilito il 4755 chmod allora apro la shell con gli stessi privilegi di 4755
+Il problema qua e' che non e' stato chiuso il file descriptor del file e quindi la shell che apro ha gli stessi privilegi di root.
+Il file descriptor e' indicato con il numero 3
+Normalemente non sono abilitato a scrivere nel file zzz ma quando abilito il 4755 chmod nel programma .c allora apro la shell con gli stessi privilegi del proprietario del file cioe' root.
 #####
