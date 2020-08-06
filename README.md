@@ -4,11 +4,11 @@ This is a linux bash capability leak attack whit C program.
 CAPABILITY LEAKING of set-UID
 
 You need to compile cap_leaking.c
-gcc -o cap_leaking cap_leaking.c
+`gcc -o cap_leaking cap_leaking.c`
 
 change the user owner and set the set-UID in the cap_leaking file
-sudo chown root cap_leaking
-sudo chmod 4755 cap_leaking
+`sudo chown root cap_leaking
+sudo chmod 4755 cap_leaking`
 
 
 Now if I run the program it print the number of file descriptor.
