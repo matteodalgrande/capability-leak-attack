@@ -12,15 +12,15 @@ change the user owner and set the set-UID in the cap_leaking file
 
 
 Now if I run the program it print the number of file descriptor.
-`fd is 3`
-`Real user id is 1000`
-`Effective user id is 1000`
-`$whoami`
-`$seed`
-`$echo bbbbbb >&3`
-`$cat /etc/zzz`
-`$this is a very important file`
-` bbbbbb`
+- `fd is 3`
+- `Real user id is 1000`
+- `Effective user id is 1000`
+- `$whoami`
+- `$seed`
+- `$echo bbbbbb >&3`
+- `$cat /etc/zzz`
+- `$this is a very important file`
+- `bbbbbb`
 
 
 
